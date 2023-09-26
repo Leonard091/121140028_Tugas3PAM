@@ -1,0 +1,58 @@
+[
+    {
+        "merged": "C:\\Users\\Leonardo Sirait\\.gradle\\daemon\\8.0\\com.example.tugas1pamleonardo.app-mergeDebugResources-48:\\layout\\activity_main.xml",
+        "source": "C:\\Users\\Leonardo Sirait\\.gradle\\daemon\\8.0\\com.example.tugas1pamleonardo.app-main-51:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\Leonardo Sirait\\.gradle\\daemon\\8.0\\com.example.tugas1pamleonardo.app-mergeDebugResources-48:\\layout\\fragment_slideshow.xml",
+        "source": "C:\\Users\\Leonardo Sirait\\.gradle\\daemon\\8.0\\com.example.tugas1pamleonardo.app-main-51:\\layout\\fragment_slideshow.xml"
+    },
+    {
+        "merged": "C:\\Users\\Leonardo Sirait\\.gradle\\daemon\\8.0\\com.example.tugas1pamleonardo.app-mergeDebugResources-48:\\layout\\content_main.xml",
+        "source": "C:\\Users\\Leonardo Sirait\\.gradle\\daemon\\8.0\\com.example.tugas1pamleonardo.app-main-51:\\layout\\content_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\Leonardo Sirait\\.gradle\\daemon\\8.0\\com.example.tugas1pamleonardo.app-mergeDebugResources-48:\\layout\\fragment_home.xml",
+        "source": "C:\\Users\\Leonardo Sirait\\.gradle\\daemon\\8.0\\com.example.tugas1pamleonardo.app-main-51:\\layout\\fragment_home.xml"
+    },
+    {
+        "merged": "C:\\Users\\Leonardo Sirait\\.gradle\\daemon\\8.0\\com.example.tugas1pamleonardo.app-mergeDebugResources-48:\\layout\\list_skill.xml",
+        "source": "C:\\Users\\Leonardo Sirait\\.gradle\\daemon\\8.0\\com.example.tugas1pamleonardo.app-main-51:\\layout\\list_skill.xml"
+    },
+    {
+        "merged": "C:\\Users\\Leonardo Sirait\\.gradle\\daemon\\8.0\\com.example.tugas1pamleonardo.app-mergeDebugResources-48:\\layout\\nav_header_main.xml",
+        "source": "C:\\Users\\Leonardo Sirait\\.gradle\\daemon\\8.0\\com.example.tugas1pamleonardo.app-main-51:\\layout\\nav_header_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\Leonardo Sirait\\.gradle\\daemon\\8.0\\com.example.tugas1pamleonardo.app-mergeDebugResources-48:\\layout\\fragment_skill_two.xml",
+        "source": "C:\\Users\\Leonardo Sirait\\.gradle\\daemon\\8.0\\com.example.tugas1pamleonardo.app-main-51:\\layout\\fragment_skill_two.xml"
+    },
+    {
+        "merged": "C:\\Users\\Leonardo Sirait\\.gradle\\daemon\\8.0\\com.example.tugas1pamleonardo.app-mergeDebugResources-48:\\layout\\fragment_skill.xml",
+        "source": "C:\\Users\\Leonardo Sirait\\.gradle\\daemon\\8.0\\com.example.tugas1pamleonardo.app-main-51:\\layout\\fragment_skill.xml"
+    },
+    {
+        "merged": "C:\\Users\\Leonardo Sirait\\.gradle\\daemon\\8.0\\com.example.tugas1pamleonardo.app-mergeDebugResources-48:\\layout\\fragment_gallery.xml",
+        "source": "C:\\Users\\Leonardo Sirait\\.gradle\\daemon\\8.0\\com.example.tugas1pamleonardo.app-main-51:\\layout\\fragment_gallery.xml"
+    },
+    {
+        "merged": "C:\\Users\\Leonardo Sirait\\.gradle\\daemon\\8.0\\com.example.tugas1pamleonardo.app-mergeDebugResources-48:\\layout\\row_skills.xml",
+        "source": "C:\\Users\\Leonardo Sirait\\.gradle\\daemon\\8.0\\com.example.tugas1pamleonardo.app-main-51:\\layout\\row_skills.xml"
+    },
+    {
+        "merged": "C:\\Users\\Leonardo Sirait\\.gradle\\daemon\\8.0\\com.example.tugas1pamleonardo.app-mergeDebugResources-48:\\layout\\fragment_skill_info.xml",
+        "source": "C:\\Users\\Leonardo Sirait\\.gradle\\daemon\\8.0\\com.example.tugas1pamleonardo.app-main-51:\\layout\\fragment_skill_info.xml"
+    },
+    {
+        "merged": "C:\\Users\\Leonardo Sirait\\.gradle\\daemon\\8.0\\com.example.tugas1pamleonardo.app-mergeDebugResources-48:\\layout\\fragment_skills.xml",
+        "source": "C:\\Users\\Leonardo Sirait\\.gradle\\daemon\\8.0\\com.example.tugas1pamleonardo.app-main-51:\\layout\\fragment_skills.xml"
+    },
+    {
+        "merged": "C:\\Users\\Leonardo Sirait\\.gradle\\daemon\\8.0\\com.example.tugas1pamleonardo.app-mergeDebugResources-48:\\layout\\app_bar_main.xml",
+        "source": "C:\\Users\\Leonardo Sirait\\.gradle\\daemon\\8.0\\com.example.tugas1pamleonardo.app-main-51:\\layout\\app_bar_main.xml"
+    },
+    {
+        "merged": "com.example.tugas1pamleonardo.app-mergeDebugResources-48:/layout/row_skills.xml",
+        "source": "com.example.tugas1pamleonardo.app-main-51:/layout/row_skills.xml"
+    }
+]
