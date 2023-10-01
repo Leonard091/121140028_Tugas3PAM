@@ -4,13 +4,16 @@ package com.example.tugas1pamleonardo.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
+import androidx.appcompat.widget.SearchView;
 import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.recyclerview.widget.RecyclerView;
 import androidx.viewbinding.ViewBinding;
 import androidx.viewbinding.ViewBindings;
 import com.example.tugas1pamleonardo.R;
+import com.google.android.material.card.MaterialCardView;
 import java.lang.NullPointerException;
 import java.lang.Override;
 import java.lang.String;
@@ -20,12 +23,25 @@ public final class FragmentSkillsBinding implements ViewBinding {
   private final ConstraintLayout rootView;
 
   @NonNull
+  public final MaterialCardView materialCardView;
+
+  @NonNull
+  public final TextView noResult;
+
+  @NonNull
   public final RecyclerView rvSkills;
 
+  @NonNull
+  public final SearchView searchSkills;
+
   private FragmentSkillsBinding(@NonNull ConstraintLayout rootView,
-      @NonNull RecyclerView rvSkills) {
+      @NonNull MaterialCardView materialCardView, @NonNull TextView noResult,
+      @NonNull RecyclerView rvSkills, @NonNull SearchView searchSkills) {
     this.rootView = rootView;
+    this.materialCardView = materialCardView;
+    this.noResult = noResult;
     this.rvSkills = rvSkills;
+    this.searchSkills = searchSkills;
   }
 
   @Override
@@ -55,13 +71,32 @@ public final class FragmentSkillsBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
+      id = R.id.materialCardView;
+      MaterialCardView materialCardView = ViewBindings.findChildViewById(rootView, id);
+      if (materialCardView == null) {
+        break missingId;
+      }
+
+      id = R.id.no_result;
+      TextView noResult = ViewBindings.findChildViewById(rootView, id);
+      if (noResult == null) {
+        break missingId;
+      }
+
       id = R.id.rv_skills;
       RecyclerView rvSkills = ViewBindings.findChildViewById(rootView, id);
       if (rvSkills == null) {
         break missingId;
       }
 
-      return new FragmentSkillsBinding((ConstraintLayout) rootView, rvSkills);
+      id = R.id.search_skills;
+      SearchView searchSkills = ViewBindings.findChildViewById(rootView, id);
+      if (searchSkills == null) {
+        break missingId;
+      }
+
+      return new FragmentSkillsBinding((ConstraintLayout) rootView, materialCardView, noResult,
+          rvSkills, searchSkills);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

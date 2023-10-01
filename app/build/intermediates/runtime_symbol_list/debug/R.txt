@@ -3124,6 +3124,7 @@ int id marquee 0x7f0800f9
 int id masked 0x7f0800fa
 int id match_constraint 0x7f0800fb
 int id match_parent 0x7f0800fc
+int id materialCardView 0x7f080215
 int id material_clock_display 0x7f0800fd
 int id material_clock_display_and_toggle 0x7f0800fe
 int id material_clock_face 0x7f0800ff
@@ -3201,6 +3202,7 @@ int id neverCompleteToEnd 0x7f080147
 int id neverCompleteToStart 0x7f080148
 int id noScroll 0x7f080149
 int id noState 0x7f08014a
+int id no_result 0x7f080216
 int id none 0x7f08014b
 int id normal 0x7f08014c
 int id north 0x7f08014d
@@ -3261,6 +3263,7 @@ int id search_edit_frame 0x7f080182
 int id search_go_btn 0x7f080183
 int id search_mag_icon 0x7f080184
 int id search_plate 0x7f080185
+int id search_skills 0x7f080217
 int id search_src_text 0x7f080186
 int id search_view_background 0x7f080187
 int id search_view_clear_button 0x7f080188

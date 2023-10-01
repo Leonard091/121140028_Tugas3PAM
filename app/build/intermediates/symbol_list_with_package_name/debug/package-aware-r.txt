@@ -3125,6 +3125,7 @@ id marquee
 id masked
 id match_constraint
 id match_parent
+id materialCardView
 id material_clock_display
 id material_clock_display_and_toggle
 id material_clock_face
@@ -3202,6 +3203,7 @@ id neverCompleteToEnd
 id neverCompleteToStart
 id noScroll
 id noState
+id no_result
 id none
 id normal
 id north
@@ -3262,6 +3264,7 @@ id search_edit_frame
 id search_go_btn
 id search_mag_icon
 id search_plate
+id search_skills
 id search_src_text
 id search_view_background
 id search_view_clear_button

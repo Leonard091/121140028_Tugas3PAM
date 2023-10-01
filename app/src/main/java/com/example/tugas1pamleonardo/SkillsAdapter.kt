@@ -5,7 +5,7 @@ import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import com.example.tugas1pamleonardo.databinding.RowSkillsBinding
 
-class SkillsAdapter(private val listData: ArrayList<Skills>): RecyclerView.Adapter<SkillsAdapter.DataViewHolder>() {
+class SkillsAdapter(private var listData: ArrayList<Skills>): RecyclerView.Adapter<SkillsAdapter.DataViewHolder>() {
     private lateinit var OnClickCallBack: onClickCallBack
 
     fun setOnClickCallBack(data: onClickCallBack){
@@ -25,6 +25,10 @@ class SkillsAdapter(private val listData: ArrayList<Skills>): RecyclerView.Adapt
         }
     }
 
+    fun setFilteredList(filterList: List<Skills>){
+        this.listData = filterList as ArrayList<Skills>
+        notifyDataSetChanged()
+    }
     override fun getItemCount(): Int {
         return listData.count()
     }

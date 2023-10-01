@@ -9,6 +9,9 @@ import com.example.tugas1pamleonardo.databinding.FragmentSkillInfoBinding
 
 class SkillInfoFragment : Fragment() {
     private lateinit var binding: FragmentSkillInfoBinding
+    companion object{
+        var EXTRA_NAME = "extra_name"
+    }
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
@@ -18,6 +21,15 @@ class SkillInfoFragment : Fragment() {
         binding = FragmentSkillInfoBinding.inflate(inflater, container, false)
 
         return binding.root
+    }
+
+    override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
+        super.onViewCreated(view, savedInstanceState)
+
+        if (arguments!=null){
+            val name = arguments?.getString(EXTRA_NAME)
+            binding.textSkillInfo.text = "tes123 $name"
+        }
     }
 
 }

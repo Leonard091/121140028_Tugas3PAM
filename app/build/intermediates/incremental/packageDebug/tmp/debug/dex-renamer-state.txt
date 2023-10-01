@@ -1,4 +1,4 @@
-#Mon Sep 25 23:17:13 ICT 2023
+#Sun Oct 01 22:00:08 ICT 2023
 base.0=C\:\\Users\\Leonardo Sirait\\Documents\\Kuliah\\KULIAH\\SEMESTER 5\\Pengembangan Aplikasi Mobile\\Tugas  1 PAM Leonardo\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
 base.1=C\:\\Users\\Leonardo Sirait\\Documents\\Kuliah\\KULIAH\\SEMESTER 5\\Pengembangan Aplikasi Mobile\\Tugas  1 PAM Leonardo\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\0\\classes.dex
 base.2=C\:\\Users\\Leonardo Sirait\\Documents\\Kuliah\\KULIAH\\SEMESTER 5\\Pengembangan Aplikasi Mobile\\Tugas  1 PAM Leonardo\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\10\\classes.dex
