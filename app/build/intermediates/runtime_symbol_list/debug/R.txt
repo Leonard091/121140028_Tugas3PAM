@@ -81,6 +81,8 @@ int animator nav_default_enter_anim 0x7f020021
 int animator nav_default_exit_anim 0x7f020022
 int animator nav_default_pop_enter_anim 0x7f020023
 int animator nav_default_pop_exit_anim 0x7f020024
+int array desc_skills_array 0x7f150000
+int array name_skills_array 0x7f150001
 int attr SharedValue 0x7f030000
 int attr SharedValueId 0x7f030001
 int attr action 0x7f030002
@@ -3352,7 +3354,6 @@ int id text_home 0x7f0801d9
 int id text_input_end_icon 0x7f0801da
 int id text_input_error_icon 0x7f0801db
 int id text_input_start_icon 0x7f0801dc
-int id text_skill 0x7f08020d
 int id text_skill_info 0x7f080212
 int id text_slideshow 0x7f0801de
 int id textinput_counter 0x7f0801df
@@ -3531,7 +3532,6 @@ int layout design_text_input_end_icon 0x7f0b002d
 int layout design_text_input_start_icon 0x7f0b002e
 int layout fragment_gallery 0x7f0b002f
 int layout fragment_home 0x7f0b0030
-int layout fragment_skill 0x7f0b0031
 int layout fragment_skill_info 0x7f0b007a
 int layout fragment_skills 0x7f0b007b
 int layout fragment_slideshow 0x7f0b0032

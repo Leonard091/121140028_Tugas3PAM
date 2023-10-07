@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="name_skills_array">
+        <item>Kotlin</item>
+        <item>HTML</item>
+        <item>CSS</item>
+        <item>Python</item>
+        <item>C++</item>
+        <item>Java</item>
+        <item>Perl</item>
+        <item>XML</item>
+        <item>WML</item>
+        <item>ASP</item>
+    </string-array>
+
+    <string-array name="desc_skills_array">
+        <item>Iam still learning.....</item>
+        <item>I have created several websites such as biography, web Prodi, etc..</item>
+        <item>I have created several websites such as biography, web Prodi, etc..</item>
+        <item>I once worked on a 2d video game project with 2 of my friends.</item>
+        <item>I have learnt it since grade 2 of senior high school as the beginning of learning programming.</item>
+        <item>Iam still learning.....</item>
+        <item>I have created several websites such as biography, web Prodi, etc..</item>
+        <item>I have created several websites such as biography, web Prodi, etc..</item>
+        <item>I once worked on a 2d video game project with 2 of my friends.</item>
+        <item>I have learnt it since grade 2 of senior high school as the beginning of learning programming.</item>
+    </string-array>
+
+</resources>

@@ -7,21 +7,18 @@ import android.view.ViewGroup
 import android.widget.Toast
 import androidx.core.os.bundleOf
 import androidx.fragment.app.Fragment
-import androidx.lifecycle.ViewModelProvider
 import androidx.navigation.fragment.findNavController
 import androidx.recyclerview.widget.LinearLayoutManager
-import com.example.tugas1pamleonardo.ui.skill_info.SkillInfoFragment
 import com.example.tugas1pamleonardo.R
 import com.example.tugas1pamleonardo.Skills
 import com.example.tugas1pamleonardo.SkillsAdapter
 import com.example.tugas1pamleonardo.databinding.FragmentSkillsBinding
 import java.util.Locale
 import android.widget.SearchView
+import com.example.tugas1pamleonardo.helper.ConstantUtil
 
 class SkillsFragment : Fragment() {
-    companion object{
-        var EXTRA_VALUE = "extra_value"
-    }
+
     private val listSkills = ArrayList<Skills>()
 
     private var _binding: FragmentSkillsBinding? = null
@@ -35,26 +32,14 @@ class SkillsFragment : Fragment() {
         container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View {
-        val skillsViewModel =
-            ViewModelProvider(this).get(SkillsViewModel::class.java)
 
-//        bindingSkills =
         _binding = FragmentSkillsBinding.inflate(inflater, container, false)
         val root: View = binding.root
 
         binding.rvSkills.setHasFixedSize(true)
         binding.rvSkills.layoutManager = LinearLayoutManager(context)
 
-        listSkills.add(Skills("Kotlin", "I'm still learning....."))
-        listSkills.add(Skills("HTML", "I have created several websites such as biography, web Prodi, etc.."))
-        listSkills.add(Skills("CSS", "I have created several websites such as biography, web Prodi, etc.."))
-        listSkills.add(Skills("Python", "I once worked on a 2d video game project with 2 of my friends."))
-        listSkills.add(Skills("C++", "I have learnt it since grade 2 of senior high school as the beginning of learning programming."))
-        listSkills.add(Skills("Java", "I'm still learning....."))
-        listSkills.add(Skills("Perl", "I have created several websites such as biography, web Prodi, etc.."))
-        listSkills.add(Skills("XML", "I have created several websites such as biography, web Prodi, etc.."))
-        listSkills.add(Skills("WML", "I once worked on a 2d video game project with 2 of my friends."))
-        listSkills.add(Skills("ASP", "I have learnt it since grade 2 of senior high school as the beginning of learning programming."))
+        listSkills.addAll(ConstantUtil.getSkillData(this))
 
         val skillsAdapter = SkillsAdapter(listSkills)
 
@@ -95,23 +80,14 @@ class SkillsFragment : Fragment() {
         })
 
         skillsAdapter.setOnClickCallBack(object: SkillsAdapter.onClickCallBack{
-//            val skillInfo = SkillInfoFragment()
-//            val bundle = Bundle()
 
             override fun onItemClicked(data: Skills) {
                 val bundle = bundleOf("extra_name" to data.name)
-//                Toast.makeText(requireActivity(), "Bahasa: " + data.name, Toast.LENGTH_SHORT).show()
                 findNavController().navigate(R.id.action_nav_skills_to_skillInfoFragment, bundle)
             }
         })
         binding.rvSkills.adapter = skillsAdapter
         return root
-    }
-
-
-    private fun filterList(query: String?) {
-
-
     }
 
     override fun onDestroyView() {
