@@ -35,7 +35,7 @@
     <fragment
         android:id="@+id/skillInfoFragment"
         android:name="com.example.tugas1pamleonardo.ui.skill_info.SkillInfoFragment"
-        android:label="SkillInfoFragment"
+        android:label="@string/skill_info"
         tools:layout="@layout/fragment_skill_info">
         <argument
             android:name="extra_name"

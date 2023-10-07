@@ -36,10 +36,6 @@
         "source": "C:\\Users\\Leonardo Sirait\\.gradle\\daemon\\8.0\\com.example.tugas1pamleonardo.app-main-51:\\layout\\fragment_gallery.xml"
     },
     {
-        "merged": "com.example.tugas1pamleonardo.app-mergeDebugResources-48:/layout/fragment_skills.xml",
-        "source": "com.example.tugas1pamleonardo.app-main-51:/layout/fragment_skills.xml"
-    },
-    {
         "merged": "C:\\Users\\Leonardo Sirait\\.gradle\\daemon\\8.0\\com.example.tugas1pamleonardo.app-mergeDebugResources-48:\\layout\\row_skills.xml",
         "source": "C:\\Users\\Leonardo Sirait\\.gradle\\daemon\\8.0\\com.example.tugas1pamleonardo.app-main-51:\\layout\\row_skills.xml"
     },
@@ -54,5 +50,9 @@
     {
         "merged": "C:\\Users\\Leonardo Sirait\\.gradle\\daemon\\8.0\\com.example.tugas1pamleonardo.app-mergeDebugResources-48:\\layout\\app_bar_main.xml",
         "source": "C:\\Users\\Leonardo Sirait\\.gradle\\daemon\\8.0\\com.example.tugas1pamleonardo.app-main-51:\\layout\\app_bar_main.xml"
+    },
+    {
+        "merged": "com.example.tugas1pamleonardo.app-mergeDebugResources-48:/layout/row_skills.xml",
+        "source": "com.example.tugas1pamleonardo.app-main-51:/layout/row_skills.xml"
     }
 ]

@@ -82,6 +82,8 @@ string nav_header_subtitle
 string nav_header_title
 string navigation_drawer_close
 string navigation_drawer_open
+string skill_info
+string welcome_message
 style RoundCorner
 style Theme.Tugas1PAMLeonardo
 style Theme.Tugas1PAMLeonardo.AppBarOverlay

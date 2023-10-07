@@ -5,6 +5,7 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import com.example.tugas1pamleonardo.R
 import com.example.tugas1pamleonardo.databinding.FragmentSkillInfoBinding
 
 class SkillInfoFragment : Fragment() {
@@ -12,6 +13,8 @@ class SkillInfoFragment : Fragment() {
     companion object{
         var EXTRA_NAME = "extra_name"
     }
+
+
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
@@ -28,7 +31,8 @@ class SkillInfoFragment : Fragment() {
 
         if (arguments!=null){
             val name = arguments?.getString(EXTRA_NAME)
-            binding.textSkillInfo.text = "tes123 $name"
+            val welcomeMessage = getString(R.string.welcome_message, name)
+            binding.textSkillInfo.text = welcomeMessage
         }
     }
 

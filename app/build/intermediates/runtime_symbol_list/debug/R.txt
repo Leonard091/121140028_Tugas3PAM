@@ -3780,7 +3780,9 @@ int string searchview_clear_text_content_description 0x7f1100a2
 int string searchview_navigation_content_description 0x7f1100a3
 int string side_sheet_accessibility_pane_title 0x7f1100a4
 int string side_sheet_behavior 0x7f1100a5
+int string skill_info 0x7f1100aa
 int string status_bar_notification_info_overflow 0x7f1100a6
+int string welcome_message 0x7f1100a9
 int style AlertDialog_AppCompat 0x7f120000
 int style AlertDialog_AppCompat_Light 0x7f120001
 int style Animation_AppCompat_Dialog 0x7f120002

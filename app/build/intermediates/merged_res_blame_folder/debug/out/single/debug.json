@@ -1,15 +1,15 @@
 [
     {
-        "merged": "C:\\Users\\Leonardo Sirait\\.gradle\\daemon\\8.0\\com.example.tugas1pamleonardo.app-merged_res-49:\\layout_fragment_gallery.xml.flat",
-        "source": "C:\\Users\\Leonardo Sirait\\.gradle\\daemon\\8.0\\com.example.tugas1pamleonardo.app-main-51:\\layout\\fragment_gallery.xml"
+        "merged": "C:\\Users\\Leonardo Sirait\\.gradle\\daemon\\8.0\\com.example.tugas1pamleonardo.app-merged_res-49:\\xml_data_extraction_rules.xml.flat",
+        "source": "C:\\Users\\Leonardo Sirait\\.gradle\\daemon\\8.0\\com.example.tugas1pamleonardo.app-main-51:\\xml\\data_extraction_rules.xml"
     },
     {
         "merged": "C:\\Users\\Leonardo Sirait\\.gradle\\daemon\\8.0\\com.example.tugas1pamleonardo.app-merged_res-49:\\drawable_css.png.flat",
         "source": "C:\\Users\\Leonardo Sirait\\.gradle\\daemon\\8.0\\com.example.tugas1pamleonardo.app-main-51:\\drawable\\css.png"
     },
     {
-        "merged": "C:\\Users\\Leonardo Sirait\\.gradle\\daemon\\8.0\\com.example.tugas1pamleonardo.app-merged_res-49:\\xml_data_extraction_rules.xml.flat",
-        "source": "C:\\Users\\Leonardo Sirait\\.gradle\\daemon\\8.0\\com.example.tugas1pamleonardo.app-main-51:\\xml\\data_extraction_rules.xml"
+        "merged": "C:\\Users\\Leonardo Sirait\\.gradle\\daemon\\8.0\\com.example.tugas1pamleonardo.app-merged_res-49:\\layout_fragment_gallery.xml.flat",
+        "source": "C:\\Users\\Leonardo Sirait\\.gradle\\daemon\\8.0\\com.example.tugas1pamleonardo.app-main-51:\\layout\\fragment_gallery.xml"
     },
     {
         "merged": "C:\\Users\\Leonardo Sirait\\.gradle\\daemon\\8.0\\com.example.tugas1pamleonardo.app-merged_res-49:\\drawable_ic_launcher_background.xml.flat",
@@ -26,6 +26,10 @@
     {
         "merged": "C:\\Users\\Leonardo Sirait\\.gradle\\daemon\\8.0\\com.example.tugas1pamleonardo.app-merged_res-49:\\layout_fragment_skills.xml.flat",
         "source": "C:\\Users\\Leonardo Sirait\\.gradle\\daemon\\8.0\\com.example.tugas1pamleonardo.app-main-51:\\layout\\fragment_skills.xml"
+    },
+    {
+        "merged": "com.example.tugas1pamleonardo.app-merged_res-49:/navigation_mobile_navigation.xml.flat",
+        "source": "com.example.tugas1pamleonardo.app-main-51:/navigation/mobile_navigation.xml"
     },
     {
         "merged": "C:\\Users\\Leonardo Sirait\\.gradle\\daemon\\8.0\\com.example.tugas1pamleonardo.app-merged_res-49:\\layout_activity_main.xml.flat",
@@ -86,6 +90,10 @@
     {
         "merged": "C:\\Users\\Leonardo Sirait\\.gradle\\daemon\\8.0\\com.example.tugas1pamleonardo.app-merged_res-49:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
         "source": "C:\\Users\\Leonardo Sirait\\.gradle\\daemon\\8.0\\com.example.tugas1pamleonardo.app-main-51:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.example.tugas1pamleonardo.app-merged_res-49:/layout_row_skills.xml.flat",
+        "source": "com.example.tugas1pamleonardo.app-main-51:/layout/row_skills.xml"
     },
     {
         "merged": "C:\\Users\\Leonardo Sirait\\.gradle\\daemon\\8.0\\com.example.tugas1pamleonardo.app-merged_res-49:\\mipmap-xhdpi_ic_launcher.webp.flat",
